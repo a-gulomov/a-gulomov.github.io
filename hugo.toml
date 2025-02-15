@@ -1,4 +1,18 @@
-baseURL = 'https://a-gulomov.github.org/'
-languageCode = 'en-us'
-title = 'My New Hugo Site'
+baseURL = "https://a-gulomov.github.io/"
+title = "Sayfulla's blog"
+languageCode = "en-us"
+theme = "keepit"
+paginate = 10
 
+[params]
+  titleCutting = true
+  color = 'light'
+  github = 'a-gulomov'
+
+
+[menu]
+  [[menu.main]]
+    identifier = "about"
+    name = "About"
+    url = "/about/"
+    weight = 10
